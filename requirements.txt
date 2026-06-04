@@ -1,0 +1,15 @@
+# Core dependencies — pinned to versions used in the paper experiments
+# Install with: pip install -r requirements.txt
+
+transformers==4.40.2
+accelerate==0.34.2
+bitsandbytes==0.43.3
+sentencepiece
+tqdm
+pandas
+matplotlib
+torch>=2.0.0          # GPU required; install the CUDA build from pytorch.org
+huggingface_hub
+
+# IndicTrans2 toolkit (install separately)
+# pip install git+https://github.com/VarunGumma/IndicTransToolkit.git
